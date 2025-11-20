@@ -43,27 +43,28 @@ export default function Footer() {
           </h4>
           <ul className="flex flex-col gap-2">
             <li>
-              <a href="#home" className="hover:text-yellow-400 transition">
+              <a href="/" className="hover:text-yellow-400 transition">
                 Home
               </a>
             </li>
             <li>
-              <a href="#about" className="hover:text-yellow-400 transition">
+              <a href="/about-us" className="hover:text-yellow-400 transition">
                 About Us
               </a>
             </li>
+
             <li>
-              <a href="#services" className="hover:text-yellow-400 transition">
-                Services
-              </a>
-            </li>
-            <li>
-              <a href="#clients" className="hover:text-yellow-400 transition">
+              <a href="/clients" className="hover:text-yellow-400 transition">
                 Clients
               </a>
             </li>
             <li>
-              <a href="#contact" className="hover:text-yellow-400 transition">
+              <a href="/partners" className="hover:text-yellow-400 transition">
+                Partners
+              </a>
+            </li>
+            <li>
+              <a href="/contact" className="hover:text-yellow-400 transition">
                 Contact
               </a>
             </li>

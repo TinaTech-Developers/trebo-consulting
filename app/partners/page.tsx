@@ -32,7 +32,7 @@ export default function OurPartnersPage() {
       {/* Hero Section */}
       <section className="relative w-full h-[70vh] flex items-center justify-center overflow-hidden">
         <Image
-          src="/partners-hero.jpg"
+          src="/our-partners.jpg"
           alt="Our Partners"
           fill
           className="object-cover"

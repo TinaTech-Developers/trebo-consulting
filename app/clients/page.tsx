@@ -30,7 +30,7 @@ export default function OurClientsPage() {
       {/* Hero Section */}
       <section className="relative w-full h-[70vh] flex items-center justify-center overflow-hidden">
         <Image
-          src="/corporate-clients-hero.jpg"
+          src="/pic-our-clients.jpg"
           alt="Our Clients"
           fill
           className="object-cover"
