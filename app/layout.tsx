@@ -7,6 +7,7 @@ import Footer from "./components/footer";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
+  fallback: ["sans-serif"], // fallback if Google Fonts fails
 });
 
 const geistMono = Geist_Mono({
