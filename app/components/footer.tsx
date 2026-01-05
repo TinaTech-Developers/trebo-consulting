@@ -37,7 +37,7 @@ export default function Footer() {
               <FiPhone /> +27 61 708 7622
             </div>
             <div className="flex items-center gap-2">
-              <FiMail /> obert@treboconsult.co.za
+              <FiMail /> obert@treboresources.co.za
             </div>
           </div>
         </div>

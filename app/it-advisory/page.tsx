@@ -196,7 +196,7 @@ export default function ITStrategyAdvisoryPage() {
             innovation.
           </p>
           <a
-            href="/contact-us"
+            href="/contact"
             className="inline-block bg-[#001F54] text-white px-8 py-4 rounded-lg font-medium hover:bg-[#0A2540] transition"
           >
             Talk to Our Advisory Experts
