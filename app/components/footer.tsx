@@ -25,7 +25,13 @@ export default function Footer() {
           </p>
           <div className="flex flex-col gap-2">
             <div className="flex items-center gap-2">
-              <FiMapPin /> 67 Ridge Road, New Germany, Pinetown, Durban, 4001
+              <FiMapPin />
+              UK - 78 Fairburn Avenue, Crewe, CW27SY <br />
+              RSA - 3 Amdern North Road, Midstream, 3600, Clayville, Jhb, South
+              Africa
+              <br />
+              Zimbabwe: F26, Warlock Crescent, Nighingale Manors, Arlington
+              Estate, Hatefield, Harare
             </div>
             <div className="flex items-center gap-2">
               <FiPhone /> +27 61 708 7622

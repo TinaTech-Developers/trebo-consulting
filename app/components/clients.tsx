@@ -9,7 +9,10 @@ import "swiper/css";
 import "swiper/css/autoplay";
 
 const clients = [
-  { name: "African Union Commission", logo: "/clients/auc.png" },
+  {
+    name: "Governance Management Consulting Pty Ltd (South Africa)",
+    logo: "https://www.governancemc.co.za/images/governance-management-consulting-logo.webp",
+  },
   { name: "Olayan Group", logo: "/clients/olayan.png" },
   { name: "Sentech", logo: "/clients/sentech.png" },
   { name: "Joburg Development Agency", logo: "/clients/jda.png" },

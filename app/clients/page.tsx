@@ -17,12 +17,46 @@ SwiperCore.use([Autoplay, Pagination]);
 
 export default function OurClientsPage() {
   const clients = [
-    { name: "SAP", logo: "/clients/sap.png" },
-    { name: "Microsoft", logo: "/clients/microsoft.png" },
-    { name: "AWS", logo: "/clients/aws.png" },
-    { name: "Oracle", logo: "/clients/oracle.png" },
-    { name: "VMware", logo: "/clients/vmware.png" },
-    { name: "Cisco", logo: "/clients/cisco.png" },
+    {
+      name: "Governance Management Consulting Pty Ltd (South Africa)",
+      logo: "/governance-management-consulting-logo.webp",
+    },
+    {
+      name: "AdaptIt",
+      logo: "https://www.adaptit.com/hs-fs/hubfs/Images/Adapt%20IT%20Logo.png?width=120&height=33&name=Adapt%20IT%20Logo.png",
+    },
+    {
+      name: "jda",
+      logo: "https://www.jda.org.za/wp-content/uploads/2018/10/jda.org_.za-Notice-and-Invitation-to-Register-on-the-Database-of-the-Johannesburg-Development-Agency.jpg",
+    },
+    {
+      name: "ten",
+      logo: "https://ten.sentech.co.za/wp-content/uploads/2020/07/Sentech-logo-e1709490002242.png",
+    },
+    {
+      name: "Neom",
+      logo: "https://neom.scene7.com/is/image/neom/logo-neom-en-spaced?fmt=png-alpha&scl=1",
+    },
+    {
+      name: "alayan",
+      logo: "https://media.licdn.com/dms/image/v2/C560BAQE7L4p3cZK5YQ/company-logo_200_200/company-logo_200_200/0/1630604487649/olayan_food_division_logo?e=2147483647&v=beta&t=I247DLCFvnlH3tcLFbaN0tFtJ7onCDo2VIhPq8QnOVA",
+    },
+    {
+      name: "ADB",
+      logo: "https://www.fanamc.com/english/wp-content/uploads/2025/09/243166826_224868249670855_6989382063564673441_n.jpg",
+    },
+    {
+      name: "World Bank",
+      logo: "https://www.worldbank.org/content/dam/wbr/share-logo/social-share.jpg",
+    },
+    {
+      name: "Ministry of Finance and  Investment Promotion Zimbabwe  ",
+      logo: "https://upload.wikimedia.org/wikipedia/en/e/e6/Logo_of_the_Ministry_of_Finance_and_Investment_Promotion_of_Zimbabwe.png",
+    },
+    {
+      name: "",
+      logo: "https://media.licdn.com/dms/image/v2/C4D0BAQH51sL_dpFlpQ/company-logo_200_200/company-logo_200_200/0/1630530575375/ferndale_foods_limited_logo?e=2147483647&v=beta&t=-A_uVtZmRBqa8VsW0M3397zzTXSwHHC6mFqN17lQT1M",
+    },
   ];
 
   return (
@@ -33,7 +67,7 @@ export default function OurClientsPage() {
           src="/pic-our-clients.jpg"
           alt="Our Clients"
           fill
-          className="object-cover"
+          className="object-cover "
           priority
           quality={100}
         />

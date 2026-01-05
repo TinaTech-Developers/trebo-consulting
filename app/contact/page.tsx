@@ -71,10 +71,15 @@ export default function ContactUsPage() {
                 <FiMapPin className="text-blue-600 text-2xl mt-1" />
                 <div>
                   <h4 className="text-xl font-semibold text-[#001F54] mb-1">
-                    Head Office
+                    Office
                   </h4>
                   <p className="text-gray-600">
-                    67 Ridge Road, New Germany, Pinetown, Durban, South Africa
+                    UK - 78 Fairburn Avenue, Crewe, CW27SY <br />
+                    RSA - 3 Amdern North Road, Midstream, 3600, Clayville, Jhb,
+                    South Africa
+                    <br />
+                    Zimbabwe: F26, Warlock Crescent, Nighingale Manors,
+                    Arlington Estate, Hatefield, Harare
                   </p>
                 </div>
               </div>
@@ -84,7 +89,11 @@ export default function ContactUsPage() {
                   <h4 className="text-xl font-semibold text-[#001F54] mb-1">
                     Phone
                   </h4>
-                  <p className="text-gray-600">+27 61 708 7622</p>
+                  <p className="text-gray-600">
+                    +44 7717655622 (UK) <br />
+                    +27 61 708 7622 (RSA) <br />
+                    +263 777 028 259 (Zimbabwe)
+                  </p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -93,7 +102,7 @@ export default function ContactUsPage() {
                   <h4 className="text-xl font-semibold text-[#001F54] mb-1">
                     Email
                   </h4>
-                  <p className="text-gray-600">info@treboconsult.co.za</p>
+                  <p className="text-gray-600"> obert@treboresources.com</p>
                 </div>
               </div>
             </motion.div>
